@@ -4,15 +4,14 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:gravity="center_vertical"
-    android:padding="12dp"
-    android:background="#111F30">
+    android:padding="12dp" android:background="@drawable/medisync_card" android:elevation="5dp" android:layout_marginStart="4dp" android:layout_marginEnd="4dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
 
     <TextView
         android:id="@+id/tvMedicineDetails"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textColor="#E6F7FF"
+        android:textColor="#382B4B"
         android:textSize="14sp"
         android:paddingEnd="8dp" />
 
@@ -33,8 +32,8 @@
             android:minWidth="0dp"
             android:minHeight="0dp"
             android:padding="2dp"
-            android:backgroundTint="#35F2D0"
-            android:textColor="#FFFFFF" />
+            android:background="@drawable/medisync_button_primary"
+            android:textColor="#FFFCFF" />
 
         <Button
             android:id="@+id/btnDeleteMedicine"
@@ -47,8 +46,8 @@
             android:minWidth="0dp"
             android:minHeight="0dp"
             android:padding="2dp"
-            android:backgroundTint="#B85C65"
-            android:textColor="#FFFFFF" />
+            android:background="@drawable/medisync_button_pink"
+            android:textColor="#FFFCFF" />
 
     </LinearLayout>
 

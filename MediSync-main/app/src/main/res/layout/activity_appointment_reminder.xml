@@ -2,20 +2,19 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#111F30"
-    android:fillViewport="true">
+    android:fillViewport="true" android:background="@drawable/medisync_screen_bg">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="22dp">
+        android:padding="22dp" android:background="@drawable/medisync_card" android:elevation="9dp" android:translationZ="1dp" android:layout_margin="8dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Appointment Reminder"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -25,7 +24,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginBottom="22dp"
             android:text="Keep track of your upcoming doctor visits."
-            android:textColor="#9AB4C5"
+            android:textColor="#887B9B"
             android:textSize="14sp" />
 
         <EditText
@@ -37,8 +36,8 @@
             android:hint="Doctor's name"
             android:inputType="textCapWords"
             android:padding="14dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <EditText
             android:id="@+id/etHospitalName"
@@ -49,15 +48,15 @@
             android:hint="Hospital or clinic name"
             android:inputType="textCapSentences"
             android:padding="14dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="6dp"
             android:text="Appointment Date"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textStyle="bold" />
 
         <EditText
@@ -72,15 +71,15 @@
             android:focusable="false"
             android:hint="Select date"
             android:padding="12dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="6dp"
             android:text="Appointment Time (24-hour)"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textStyle="bold" />
 
         <EditText
@@ -95,15 +94,15 @@
             android:focusable="false"
             android:hint="Select time (e.g. 20:45)"
             android:padding="12dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="6dp"
             android:text="Notes (Optional)"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textStyle="bold" />
 
         <EditText
@@ -116,17 +115,17 @@
             android:hint="E.g. Follow-up visit"
             android:inputType="textCapSentences|textMultiLine"
             android:padding="12dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <Button
             android:id="@+id/btnSaveAppointment"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:backgroundTint="#35F2D0"
+            android:background="@drawable/medisync_button_primary"
             android:text="Save Appointment"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF"
+            android:textColor="#FFFCFF"
             android:textSize="16sp" />
 
     </LinearLayout>

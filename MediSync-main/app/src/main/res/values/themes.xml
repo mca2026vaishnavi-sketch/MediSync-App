@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.Theme.MediSync" parent="Theme.Material3.Dark.NoActionBar">
-        <item name="colorPrimary">#35F2D0</item>
-        <item name="colorOnPrimary">#06131B</item>
-        <item name="colorSecondary">#7C83FF</item>
-        <item name="android:colorAccent">#35F2D0</item>
-        <item name="android:statusBarColor">#0A1422</item>
-        <item name="android:navigationBarColor">#0A1422</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowBackground">#0A1422</item>
-        <item name="android:fontFamily">sans</item>
-    </style>
-    <style name="Theme.MediSync" parent="Base.Theme.MediSync" />
+ <style name="Base.Theme.MediSync" parent="Theme.Material3.Light.NoActionBar">
+  <item name="colorPrimary">#9878D4</item><item name="colorOnPrimary">#FFFFFFFF</item>
+  <item name="colorSecondary">#C5A8F0</item><item name="colorSurface">#FFFCFF</item>
+  <item name="colorOnSurface">#382B4B</item><item name="android:colorAccent">#9878D4</item>
+  <item name="android:statusBarColor">#F7F3FF</item><item name="android:navigationBarColor">#F7F3FF</item>
+  <item name="android:windowLightStatusBar">true</item><item name="android:windowBackground">#F7F3FF</item>
+  <item name="android:fontFamily">sans</item>
+ </style><style name="Theme.MediSync" parent="Base.Theme.MediSync" />
 </resources>

@@ -2,20 +2,19 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#111F30"
-    android:fillViewport="true">
+    android:fillViewport="true" android:background="@drawable/medisync_screen_bg">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="24dp" android:background="@drawable/medisync_card" android:elevation="9dp" android:translationZ="1dp" android:layout_margin="8dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Health Profile"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textSize="26sp"
             android:textStyle="bold" />
 
@@ -25,14 +24,14 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="24dp"
             android:text="Keep your important health details in one place."
-            android:textColor="#9AB4C5"
+            android:textColor="#887B9B"
             android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Age"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textSize="14sp" />
 
         <EditText
@@ -46,14 +45,14 @@
             android:focusable="false"
             android:clickable="true"
             android:padding="10dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Blood Group"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textSize="14sp" />
 
         <Spinner
@@ -69,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Allergies"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textSize="14sp" />
 
         <EditText
@@ -82,14 +81,14 @@
             android:hint="Enter allergies or None"
             android:inputType="textCapSentences"
             android:padding="10dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Medical Notes"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textSize="14sp" />
 
         <EditText
@@ -103,17 +102,17 @@
             android:hint="Add important medical information"
             android:inputType="textCapSentences|textMultiLine"
             android:padding="10dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <Button
             android:id="@+id/btnSaveProfile"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:backgroundTint="#35F2D0"
+            android:background="@drawable/medisync_button_primary"
             android:text="Save Profile"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF"
+            android:textColor="#FFFCFF"
             android:textSize="15sp" />
 
     </LinearLayout>

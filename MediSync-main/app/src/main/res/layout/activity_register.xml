@@ -2,15 +2,14 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:background="#111F30">
+    android:fillViewport="true" android:background="@drawable/medisync_screen_bg">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="28dp">
+        android:padding="28dp" android:background="@drawable/medisync_card" android:elevation="9dp" android:translationZ="1dp" android:layout_margin="8dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -18,7 +17,7 @@
             android:text="♥ MediSync"
             android:textSize="32sp"
             android:textStyle="bold"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:layout_marginBottom="8dp" />
 
         <TextView
@@ -27,7 +26,7 @@
             android:text="Create your account"
             android:textSize="25sp"
             android:textStyle="bold"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="8dp" />
 
@@ -36,7 +35,7 @@
             android:layout_height="wrap_content"
             android:text="Join MediSync to organise your health."
             android:textSize="14sp"
-            android:textColor="#9AB4C5"
+            android:textColor="#887B9B"
             android:layout_marginBottom="28dp" />
 
         <EditText
@@ -47,8 +46,8 @@
             android:inputType="textPersonName"
             android:singleLine="true"
             android:padding="14dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5"
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B"
             android:background="@drawable/medisync_input" />
 
         <EditText
@@ -60,8 +59,8 @@
             android:inputType="text"
             android:singleLine="true"
             android:padding="14dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5"
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B"
             android:background="@drawable/medisync_input" />
 
         <EditText
@@ -73,8 +72,8 @@
             android:inputType="textPassword"
             android:singleLine="true"
             android:padding="14dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5"
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B"
             android:background="@drawable/medisync_input" />
 
         <EditText
@@ -86,8 +85,8 @@
             android:inputType="textPassword"
             android:singleLine="true"
             android:padding="14dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5"
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B"
             android:background="@drawable/medisync_input" />
 
         <Button
@@ -97,8 +96,8 @@
             android:layout_marginTop="28dp"
             android:text="Create Account"
             android:textAllCaps="false"
-            android:backgroundTint="#35F2D0"
-            android:textColor="#FFFFFF"
+            android:background="@drawable/medisync_button_primary"
+            android:textColor="#FFFCFF"
             android:textSize="16sp" />
 
         <TextView
@@ -109,7 +108,7 @@
             android:padding="8dp"
             android:text="Already have an account? Login"
             android:textSize="14sp"
-            android:textColor="#35F2D0"
+            android:textColor="#B79AE8"
             android:clickable="true"
             android:focusable="true" />
 

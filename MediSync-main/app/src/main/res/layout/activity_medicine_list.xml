@@ -3,14 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
-    android:background="#111F30">
+    android:padding="20dp" android:background="@drawable/medisync_screen_bg">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="My Medicines"
-        android:textColor="#E6F7FF"
+        android:textColor="#382B4B"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp" />
@@ -19,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="View and manage your saved medicines."
-        android:textColor="#9AB4C5"
+        android:textColor="#887B9B"
         android:textSize="14sp"
         android:layout_marginBottom="18dp" />
 
@@ -29,8 +28,8 @@
         android:layout_height="48dp"
         android:text="+ Add Medicine"
         android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#35F2D0"
+        android:textColor="#FFFCFF"
+        android:background="@drawable/medisync_button_primary"
         android:layout_marginBottom="14dp" />
 
     <TextView
@@ -38,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="No medicines saved yet."
-        android:textColor="#9AB4C5"
+        android:textColor="#887B9B"
         android:textSize="15sp"
         android:gravity="center"
         android:padding="20dp"
@@ -49,8 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:divider="#244456"
-        android:dividerHeight="1dp"
-        android:background="#111F30" />
+        android:divider="#E3D8F2"
+        android:dividerHeight="8dp"
+        android:background="@drawable/medisync_card" android:elevation="7dp" />
 
 </LinearLayout>

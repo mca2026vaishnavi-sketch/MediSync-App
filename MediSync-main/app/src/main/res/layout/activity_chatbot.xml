@@ -2,15 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#111F30"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp" android:background="@drawable/medisync_screen_bg">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MediBot"
-        android:textColor="#E6F7FF"
+        android:textColor="#382B4B"
         android:textSize="24sp"
         android:textStyle="bold"
         android:padding="8dp" />
@@ -19,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Your MediSync health assistant"
-        android:textColor="#9AB4C5"
+        android:textColor="#887B9B"
         android:textSize="14sp"
         android:paddingStart="8dp"
         android:paddingBottom="12dp" />
@@ -35,32 +34,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Healthy habits"
-            android:backgroundTint="#14283A"
-            android:textColor="#E6F7FF" />
+            android:backgroundTint="#F0E9FA"
+            android:textColor="#382B4B" />
 
         <Button
             android:id="@+id/btnMedicineHelp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Missed a medicine?"
-            android:backgroundTint="#14283A"
-            android:textColor="#E6F7FF" />
+            android:backgroundTint="#F0E9FA"
+            android:textColor="#382B4B" />
 
         <Button
             android:id="@+id/btnAppointmentHelp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Doctor appointments"
-            android:backgroundTint="#14283A"
-            android:textColor="#E6F7FF" />
+            android:backgroundTint="#F0E9FA"
+            android:textColor="#382B4B" />
 
         <Button
             android:id="@+id/btnAppHelp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="How to use MediSync"
-            android:backgroundTint="#14283A"
-            android:textColor="#E6F7FF" />
+            android:backgroundTint="#F0E9FA"
+            android:textColor="#382B4B" />
 
     </LinearLayout>
 
@@ -104,8 +103,8 @@
             android:layout_height="48dp"
             android:layout_marginStart="4dp"
             android:minWidth="0dp"
-            android:backgroundTint="#35F2D0"
-            android:textColor="#FFFFFF"
+            android:background="@drawable/medisync_button_primary"
+            android:textColor="#FFFCFF"
             android:padding="0dp"
             android:text="🎤"
             android:contentDescription="Speak your question" />
@@ -116,8 +115,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="Send"
-            android:backgroundTint="#35F2D0"
-            android:textColor="#FFFFFF" />
+            android:background="@drawable/medisync_button_primary"
+            android:textColor="#FFFCFF" />
 
     </LinearLayout>
 

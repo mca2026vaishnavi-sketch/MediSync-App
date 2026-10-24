@@ -2,20 +2,19 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#111F30"
-    android:fillViewport="true">
+    android:fillViewport="true" android:background="@drawable/medisync_screen_bg">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="22dp">
+        android:padding="22dp" android:background="@drawable/medisync_card" android:elevation="9dp" android:translationZ="1dp" android:layout_margin="8dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Medicine Reminder"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -25,7 +24,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginBottom="20dp"
             android:text="Choose when you want to take your medicine."
-            android:textColor="#9AB4C5"
+            android:textColor="#887B9B"
             android:textSize="14sp" />
 
         <TextView
@@ -36,14 +35,14 @@
             android:background="@drawable/medisync_input"
             android:padding="14dp"
             android:text="Saved medicine details will appear here."
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textSize="16sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Reminder Date"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textStyle="bold"
             android:layout_marginBottom="6dp" />
 
@@ -59,14 +58,14 @@
             android:hint="Select date"
             android:drawableEnd="@android:drawable/ic_menu_my_calendar"
             android:padding="12dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Reminder Time (24-hour)"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textStyle="bold"
             android:layout_marginBottom="6dp" />
 
@@ -82,14 +81,14 @@
             android:hint="Select time (e.g. 20:45)"
             android:drawableEnd="@android:drawable/ic_lock_idle_alarm"
             android:padding="12dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Notes (Optional)"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textStyle="bold"
             android:layout_marginBottom="6dp" />
 
@@ -103,8 +102,8 @@
             android:hint="E.g. Take after dinner"
             android:inputType="textCapSentences|textMultiLine"
             android:padding="12dp"
-            android:textColor="#E6F7FF"
-            android:textColorHint="#9AB4C5" />
+            android:textColor="#382B4B"
+            android:textColorHint="#887B9B" />
 
         <Button
             android:id="@+id/btnSaveMedicineReminder"
@@ -113,7 +112,7 @@
             android:background="@drawable/medisync_input"
             android:text="Save Reminder"
             android:textAllCaps="false"
-            android:textColor="#E6F7FF"
+            android:textColor="#382B4B"
             android:textSize="16sp" />
 
     </LinearLayout>

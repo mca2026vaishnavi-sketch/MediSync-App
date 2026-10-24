@@ -4,8 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:gravity="center_vertical"
-    android:padding="10dp"
-    android:background="#111F30">
+    android:padding="10dp" android:background="@drawable/medisync_card" android:elevation="5dp" android:layout_marginStart="4dp" android:layout_marginEnd="4dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
 
     <TextView
         android:id="@+id/tvAppointmentDetails"
@@ -13,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Doctor\nHospital\nDate and Time"
-        android:textColor="#E6F7FF"
+        android:textColor="#382B4B"
         android:textSize="14sp"
         android:lineSpacingExtra="3dp"
         android:paddingEnd="8dp" />
@@ -31,8 +30,8 @@
             android:text="Edit"
             android:textAllCaps="false"
             android:textSize="12sp"
-            android:textColor="#FFFFFF"
-            android:backgroundTint="#35F2D0"
+            android:textColor="#FFFCFF"
+            android:background="@drawable/medisync_button_primary"
             android:minHeight="0dp"
             android:minWidth="0dp"
             android:padding="2dp" />
@@ -45,8 +44,8 @@
             android:text="Delete"
             android:textAllCaps="false"
             android:textSize="12sp"
-            android:textColor="#FFFFFF"
-            android:backgroundTint="#B85C65"
+            android:textColor="#FFFCFF"
+            android:background="@drawable/medisync_button_pink"
             android:minHeight="0dp"
             android:minWidth="0dp"
             android:padding="2dp" />
